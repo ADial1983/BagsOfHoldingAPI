@@ -1,0 +1,141 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "drowprincess1974",
+      "email": "lacey.mgee@gmail.com"
+    },
+    {
+      "id": 2,
+      "username": "HookedHorror62",
+      "email": "martyz900@usa.gov"
+    },
+    {
+      "email": "c3po@hotmail.com",
+      "username": "Goldilocks",
+      "id": 3
+    },
+    {
+      "email": "Ratthew@SwarmOfRats.com",
+      "username": "TheRatMan",
+      "id": 4
+    }
+  ],
+  "bags": [
+    {
+      "id": 1,
+      "name": "Porlyusica's Bag",
+      "userId": 1,
+      "maxWeight": 135,
+      "copper": 9,
+      "silver": 15,
+      "electrum": 0,
+      "gold": 27,
+      "platinum": 2
+    },
+    {
+      "id": 2,
+      "name": "Maylene's Bag",
+      "userId": 1,
+      "maxWeight": 225,
+      "copper": 200,
+      "silver": 40,
+      "electrum": 0,
+      "gold": 475,
+      "platinum": 10
+    },
+    {
+      "id": 3,
+      "name": "Fido",
+      "userId": 2,
+      "maxWeight": 405,
+      "copper": 0,
+      "silver": 1,
+      "electrum": 2,
+      "gold": 0,
+      "platinum": 0
+    },
+    {
+      "userId": 1,
+      "name": "Mimi's Bag",
+      "maxWeight": "150",
+      "copper": "44",
+      "silver": "100",
+      "electrum": 0,
+      "gold": "9",
+      "platinum": 0,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "name": "Violetta's Bag",
+      "maxWeight": "500",
+      "copper": "90",
+      "silver": "61",
+      "electrum": "15",
+      "gold": "1032",
+      "platinum": "24",
+      "id": 5
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "Armor"
+    },
+    {
+      "id": 2,
+      "name": "Weapon"
+    },
+    {
+      "id": 3,
+      "name": "Consumable"
+    },
+    {
+      "id": 4,
+      "name": "Tool"
+    },
+    {
+      "id": 5,
+      "name": "Miscellaneous"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "bagId": 1,
+      "userId": 1,
+      "name": "Poisoner's Kit",
+      "description": "A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.",
+      "weight": 2,
+      "typeId": 4
+    },
+    {
+      "id": 2,
+      "bagId": 1,
+      "userId": 1,
+      "name": "Potion of Healing (5)",
+      "description": "A character who drinks the magical red fluid in this vial regains 2d4 + 2 hit points. Drinking or administering a potion takes an action. (Weight 0.5 each)",
+      "weight": 2.5,
+      "typeId": 3
+    },
+    {
+      "id": 3,
+      "bagId": 2,
+      "userId": 1,
+      "name": "Potion of Healing (6)",
+      "description": "A character who drinks the magical red fluid in this vial regains 2d4 + 2 hit points. Drinking or administering a potion takes an action. (Weight 0.5 each)",
+      "weight": 3,
+      "typeId": 3
+    },
+    {
+      "id": 4,
+      "bagId": 3,
+      "userId": 2,
+      "name": "Winged Boots",
+      "description": "While you wear these boots, you have a flying speed equal to your walking speed. You can use the boots to fly for up to 4 hours, all at once or in several shorter flights, each one using a minimum of 1 minute from the duration. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land.",
+      "weight": 1,
+      "typeId": 1
+    }
+  ]
+}
